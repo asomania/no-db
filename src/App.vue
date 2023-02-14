@@ -1,4 +1,10 @@
-<template></template>
+<template>
+  <div>
+    <p>
+      {{ $store.state.uye.uyeAd[0] }}
+    </p>
+  </div>
+</template>
 
 <script>
 export default {
